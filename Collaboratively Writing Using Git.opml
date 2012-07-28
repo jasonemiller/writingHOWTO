@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+  <head>
+    <title>Collaboratively Writing Using Git</title>
+    <expansionState>0,31,54,70</expansionState>
+  </head>
+  <body>
+    <outline text="Workflow">
+      <outline text="1 - clone project from github to local repo"/>
+      <outline text="2 - make your changes, additions">
+        <outline text="editing document">
+          <outline text="flat text editor">
+            <outline text="textmate">
+              <outline text="help.github.com—using-textmate-as-your-default-editor &lt;https://help.github.com/articles/using-textmate-as-your-default-editor&gt;"/>
+            </outline>
+            <outline text="textedit"/>
+            <outline text="BBEdit"/>
+            <outline text="emacs"/>
+            <outline text="not">
+              <outline text="Pages"/>
+              <outline text="MS Word"/>
+              <outline text="OpenOffice"/>
+            </outline>
+          </outline>
+          <outline text="saving to local clone">
+            <outline text="if you make a mistake, can always delete and 're-fetch'">
+              <outline text="Q:  before deleting, do you need to make sure your file is not staged? "/>
+            </outline>
+          </outline>
+        </outline>
+        <outline text="add"/>
+      </outline>
+      <outline text="3 - stage changes (git add)">
+        <outline text="can check with 'git status'"/>
+        <outline text="stage files with changes to be included in 'commit'"/>
+      </outline>
+      <outline text="4 - commit changes (git commit)"/>
+      <outline text="5 - fetch new files from github repo"/>
+      <outline text="6- merge new files with your version; you will now have the most up-to-date version of the project as your local repo">
+        <outline text="if there are not file/text conflicts, you can proceed to the next step"/>
+        <outline text="if the merge fails with a 'conflict' message (and file name), you'll need to do some work">
+          <outline text="open the file in an editor and resolve the conflict (look for a series of '&lt;' at the start of the conflict and a series of '&gt;' at the end of the conflict.  The conflicting text is between them"/>
+          <outline text="replace conflicted text with your fix"/>
+          <outline text="restage the edited file with 'git add [filename]'"/>
+          <outline text="return to step 4"/>
+        </outline>
+      </outline>
+      <outline text="7 - push changes to common repo at github"/>
+    </outline>
+    <outline text="getting project from github">
+      <outline text="first time">
+        <outline text="configuring git on OS X, help.github.com—set-up-git &lt;https://help.github.com/articles/set-up-git&gt;">
+          <outline text="username">
+            <outline text="git config --global user.name &quot;Your Name Here&quot;"/>
+            <outline text="help.github.com—setting-your-username-in-git &lt;https://help.github.com/articles/setting-your-username-in-git&gt;"/>
+          </outline>
+          <outline text="email address">
+            <outline text="should be the same email address that is associated with your GitHub account (your Truman account)"/>
+            <outline text="git config --global user.email &quot;your_email@youremail.com &lt;mailto:your_email@youremail.com&gt;&quot;"/>
+            <outline text="help.github.com—setting-your-email-in-git &lt;https://help.github.com/articles/setting-your-email-in-git&gt;"/>
+          </outline>
+        </outline>
+        <outline text="connecting to github the first time">
+          <outline text="HTTPS mode:  why not">
+            <outline text="cannot access private repositories"/>
+          </outline>
+          <outline text="using git@github.com &lt;mailto:git@github.com&gt;">
+            <outline text="make SSH key">
+              <outline text="help.github.com—generating-ssh-keys &lt;https://help.github.com/articles/generating-ssh-keys&gt;"/>
+            </outline>
+            <outline text="command for cloning from github">
+              <outline text="git clone git@github.com &lt;mailto:git@github.com&gt;:TrumanSTEP/[REPONAME].git"/>
+            </outline>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="subsequent times">
+        <outline text="part of merging your changes with the github repo"/>
+        <outline text="if you haven't made changes">
+          <outline text="git fetch"/>
+          <outline text="get merge"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="updating project to github after you've made changes	">
+      <outline text="git add"/>
+      <outline text="git commit">
+        <outline text="documenting with comments">
+          <outline text="git commit -m"/>
+          <outline text="default editor">
+            <outline text="if you don't set your default editor to something else, your commit message will open in vim">
+              <outline text=":x"/>
+            </outline>
+            <outline text="git config --global core.editor open"/>
+          </outline>
+          <outline text="concise"/>
+          <outline text="comment on substantive changes, contributions"/>
+        </outline>
+        <outline text="what if there are conflicts?"/>
+        <outline text="frequency">
+          <outline text="each time you push back to the github repository, the owner needs to OK it"/>
+          <outline text="often enough to lessen chance of 'conflicts'"/>
+        </outline>
+      </outline>
+      <outline text="staging and changing"/>
+    </outline>
+    <outline text="basic usage">
+      <outline text="Terminal"/>
+      <outline text="installing git on OS X">
+        <outline text="macports">
+          <outline text="big install"/>
+          <outline text="makes other tools available"/>
+          <outline text="www.macports.org &lt;http://www.macports.org/&gt;"/>
+        </outline>
+      </outline>
+      <outline text="basic set of commands">
+        <outline text="git clone"/>
+        <outline text="git commit">
+          <outline text="git commit -m 'comment'">
+            <outline text="commits staged files, commitment comments part of CLI command"/>
+          </outline>
+          <outline text="git commit -a">
+            <outline text="a way to skip the staging step; commits all added, changed files"/>
+          </outline>
+          <outline text="git commit -am">
+            <outline text="combines the above"/>
+          </outline>
+        </outline>
+        <outline text="git status">
+          <outline text="short output:  git status -s "/>
+          <outline text="detailed output:  git status"/>
+          <outline text="two columns for annotations:  staged and working directory"/>
+          <outline text="annotations">
+            <outline text="A = added"/>
+            <outline text="M = modified since last commit"/>
+            <outline text="D = deleted since last commit"/>
+            <outline text="U = updated but not merged"/>
+          </outline>
+        </outline>
+        <outline text="git add [filename1] [filename2] … [filenameN]"/>
+        <outline text="git fetch"/>
+        <outline text="git merge"/>
+        <outline text="git push"/>
+        <outline text="get pull"/>
+      </outline>
+      <outline text="git help"/>
+    </outline>
+    <outline text="Other resources">
+      <outline text="scottchacon.com—github-flow.html &lt;http://scottchacon.com/2011/08/31/github-flow.html&gt;"/>
+      <outline text="help.github.com—what-are-other-good-resources-for-using-git-or-github &lt;https://help.github.com/articles/what-are-other-good-resources-for-using-git-or-github&gt;"/>
+      <outline text="stackoverflow.com—git-for-beginners-the-definitive-practical-guide &lt;http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide&gt;"/>
+      <outline text="gitref.org &lt;http://gitref.org/&gt;"/>
+    </outline>
+  </body>
+</opml>
