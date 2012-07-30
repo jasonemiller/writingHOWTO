@@ -2,13 +2,13 @@
 <opml version="1.0">
   <head>
     <title>Collaboratively Writing Using Git</title>
-    <expansionState>0,31,54,70</expansionState>
+    <expansionState>0,2,18,31,54,56,70,77,79</expansionState>
   </head>
   <body>
-    <outline text="Workflow">
-      <outline text="1 - clone project from github to local repo"/>
+    <outline text="Workflow" _note="In this section, we describe the workflow we will use in a collaborative writing context that involves the versioning system, git.">
+      <outline text="1 - clone project from github to local repo" _note="To obtain the project materials, you must use git and create a clone of the master repository on your work machine.  This means you’ll need git installed and you’ll need an active internet connection.&#10;&#10;There are many ways to obtain and install git. (footnote:  See http://git-scm.com/book/en/Getting-Started-Installing-Git for a pretty comprehensive list of options, including instructions)  The easiest way to install git on OS X is to use the graphical Git installer available for download at http://code.google.com/p/git-osx-installer.&#10;&#10;If you have MacPorts installed, you can install git and its dependancies with a single command in the Terminal.&#10;&#10;Once you have git installed, running, and configured,  (link to section on configuration) you can make a clone of the project repository on your working machine.  Open Terminal.app and authenticate if necessary.  Change to the directory in which you want the repository clone to reside.  Then, at the command line, type and then execture the following:&#10;&#10;     git clone TEXT&#10;&#10;This will clone the private repository XXXX hosted in the TrumanSTEP organizational account to the folder YYYY on your local machine.  You can now open the files in that folder with a text editor and make contributions (new content, revisions, *etc.*) to the project."/>
       <outline text="2 - make your changes, additions">
-        <outline text="editing document">
+        <outline text="editing document" _note="With the exception of special files, such as digital images that are included in a document for illustrative purposes, a project's files consist of flat text files.  Such files are text-only files with no formatting.  This 'flat' nature allows git to track the changes in the files, merge the revisions of the collaborators, and do the other magical things that it does.&#10;&#10;To keep the 'flat' nature of the files, we must revise project files using text editors (as opposed to word processors).  Example text editors include (moving from free to paid) Emacs, TextEdit, Vim, Nano, TextWrangler, TextMate, BBEdit, and MarsEdit.&#10;&#10;While some (most?) word processors allow you to save a file as 'text only', it's best to avoid using them.  Any changes in a file will be noticed and tracked by git, so who knows what can happen when a flat text files changes to rick text while being edited and then back to text only before being saved.">
           <outline text="flat text editor">
             <outline text="textmate">
               <outline text="help.github.com—using-textmate-as-your-default-editor &lt;https://help.github.com/articles/using-textmate-as-your-default-editor&gt;"/>
@@ -28,15 +28,15 @@
             </outline>
           </outline>
         </outline>
-        <outline text="add"/>
+        <outline text="add" _note="Once you've made changes to a file in the project, you are going to need to share those changes with the rest of the project collaborators.  This means the team needs your changes to 'propogate' back into t eh master repository.&#10;&#10;The first thing you are going to do is 'stage' you revised file for propogation.  In Terminal.app, at the command line (with the project folder as the working directory (footnote:  You can use the pwd command to see the path to your current location.  Alternatively, you can use the ls command to see the other files in the working directory; if you don't have other clones of the project files on your machine, you should be able to infer from the file list where you are.)), execute the following command&#10;&#10;     git add FILENAME&#10;&#10;This will stage your revised file for merging back into the project.  If you have made changes to multiple files, repeat this for each file, or execute&#10;&#10;     git add FILENAME1 FILEMAN2 ... FILENAMEn&#10;&#10;The command git status will show you which files have been staged for the merge."/>
       </outline>
       <outline text="3 - stage changes (git add)">
         <outline text="can check with 'git status'"/>
         <outline text="stage files with changes to be included in 'commit'"/>
       </outline>
-      <outline text="4 - commit changes (git commit)"/>
-      <outline text="5 - fetch new files from github repo"/>
-      <outline text="6- merge new files with your version; you will now have the most up-to-date version of the project as your local repo">
+      <outline text="4 - commit changes (git commit)" _note="With revised files staged, you are ready to fold them into the project.  First, you commit those project revisions to your local copy using the command 'git commit'.   See the section [NAME] on a couple ways to use this command.  The basic invocation would look like&#10;&#10;     git commit -m &quot;comment&quot; FILENAME&#10;&#10;where &quot;comment&quot; is a sentence or phrase that describes the revisions you made to FILENAME.  As with the 'add' command, you can commit a list of files at a time by listing their filenames in series.  The comment is associated with the commit action, not with the files."/>
+      <outline text="5 - fetch new files from github repo" _note="To prepare for merging your revisions with the master project files on GitHub, you will next fetch files in the current version on GitHub and merge your changes with them.  This happens with the command&#10;&#10;    git fetch"/>
+      <outline text="6- merge new files with your version; you will now have the most up-to-date version of the project as your local repo" _note="Having just fetched the most recent version of the project from GitHub, you now merge your changes in with the command&#10;&#10;     git merge&#10;&#10;If all goes well, you can then proceed to the last step.  If all does not go well, it means that the merge discovered a conflict between a revision you made and a revision someone else made since you obtained the files you revised.&#10;&#10;Git will tell you where in each file those conflicts occur by placing a series of '&lt;' symbols at the start of the conflict, a series of '&gt;' at the end of the conflict, and a series of ''=' symbols between the two versions of the conflicting text.  You must resolve this conflict by replacing this block of text with the correct revision.  This might require a conversation with other collaborators.  If it does, it's probably better to delete your revision and go with the revision of your collaborator until you can have a conversation.  At this moment, it's important to resolve the conflict and get your other contributions into the master repository.&#10;&#10;Once you resolve any conflicts, execute 'git merge' at the command line again to make sure all is well.  The proceed to push your changes into the master repository so they are available to your collaborators.">
         <outline text="if there are not file/text conflicts, you can proceed to the next step"/>
         <outline text="if the merge fails with a 'conflict' message (and file name), you'll need to do some work">
           <outline text="open the file in an editor and resolve the conflict (look for a series of '&lt;' at the start of the conflict and a series of '&gt;' at the end of the conflict.  The conflicting text is between them"/>
@@ -45,7 +45,7 @@
           <outline text="return to step 4"/>
         </outline>
       </outline>
-      <outline text="7 - push changes to common repo at github"/>
+      <outline text="7 - push changes to common repo at github" _note="To push your revisions to the master repository, execute&#10;&#10;    git push&#10;&#10;That's it.  Once you've done that, you will have on your local machine a clone of the master repository."/>
     </outline>
     <outline text="getting project from github">
       <outline text="first time">
@@ -82,7 +82,7 @@
         </outline>
       </outline>
     </outline>
-    <outline text="updating project to github after you've made changes	">
+    <outline text="updating project to github after you've made changes ">
       <outline text="git add"/>
       <outline text="git commit">
         <outline text="documenting with comments">
