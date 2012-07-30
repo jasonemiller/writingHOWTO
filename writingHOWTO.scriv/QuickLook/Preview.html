@@ -1,0 +1,494 @@
+<html>
+
+<head>
+<title>writingHOWTO</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	body {background-color: #bac0c7}
+    p.binderItem {margin: 10.0px 0.0px 0.0px 05.0px; font-family:Cochin, Times, Courier, Arial, serif; font-size:14.0px;}
+    .page {border: 1px solid #727272; background: #fff}
+    hr {
+      border-top: 1px dashed #000;
+      border-bottom: 0px solid #fff;
+      color: #fff;
+      background-color: #fff;
+      height: 0px;
+  </style>
+</head>
+
+<body>
+
+<table border="0" width="100%" cellspacing="3">
+<tr>
+<td>
+
+<table class="page" width="100%" cellspacing="10" cellpadding="2">
+<tr>
+<td valign="top">
+
+<ul>
+<li>
+<p class="binderItem"><strong>Meta-Data</strong><br/>Title:   How To Write Collaboratively with Git and GitHub   Author:  Jason Miller   Date:    July 29, 2012   Base Header Level: 2   Latex footer: testing   Quotes Language:  english   Copyright:  2012 all rights reserved   latex input:        mmd-article-header   LaTeX Mode:         memoir     latex input:        mmd-article-begin-doc   latex footer:       mmd-memoir-footer   keywords: git, github, writing    </p>
+</li>
+<li>
+<p class="binderItem"><strong>Workflow</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>1 - clone project from github to local repo</strong><br/>To obtain the project materials, you must use git and create a clone of the master repository on your work machine.  This means you’ll need git installed and you’ll need an active internet connection.</p>
+</li>
+<li>
+<p class="binderItem"><strong>2 - make your changes, additions</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>editing document</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>flat text editor</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>textmate</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>help.github.com—using-textmate-as-your-default-editor <https://help.github.com/articles/using-textmate-as-your-default-editor></strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>textedit</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>BBEdit</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>emacs</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>not</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Pages</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>MS Word</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>OpenOffice</strong></p>
+</li>
+</ul>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>saving to local clone</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>if you make a mistake, can always delete and 're-fetch'</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Q:  before deleting, do you need to make sure your file is not staged? </strong></p>
+</li>
+</ul>
+</ul>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>add</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>3 - stage changes (git add)</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>can check with 'git status'</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>stage files with changes to be included in 'commit'</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>4 - commit changes (git commit)</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>5 - fetch new files from github repo</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>6- merge new files with your version; you will now have the most up-to-date version of the project as your local repo</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>if there are not file/text conflicts, you can proceed to the next step</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>if the merge fails with a 'conflict' message (and file name), you'll need to do some work</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>open the file in an editor and resolve the conflict (look for a series of '<' at the start of the conflict and a series of '>' at the end of the conflict.  The conflicting text is between them</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>replace conflicted text with your fix</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>restage the edited file with 'git add [filename]'</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>return to step 4</strong></p>
+</li>
+</ul>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>7 - push changes to common repo at github</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>getting project from github</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>first time</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>configuring git on OS X, help.github.com—set-up-git <https://help.github.com/articles/set-up-git></strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>username</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>git config --global user.name "Your Name Here"</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>help.github.com—setting-your-username-in-git <https://help.github.com/articles/setting-your-username-in-git></strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>email address</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>should be the same email address that is associated with your GitHub account (your Truman account)</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>git config --global user.email "your_email@youremail.com <mailto:your_email@youremail.com>"</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>help.github.com—setting-your-email-in-git <https://help.github.com/articles/setting-your-email-in-git></strong></p>
+</li>
+</ul>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>connecting to github the first time</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>HTTPS mode:  why not</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>cannot access private repositories</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>using git@github.com <mailto:git@github.com></strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>make SSH key</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>help.github.com—generating-ssh-keys <https://help.github.com/articles/generating-ssh-keys></strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>command for cloning from github</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>git clone git@github.com <mailto:git@github.com>:TrumanSTEP/[REPONAME].git</strong></p>
+</li>
+</ul>
+</ul>
+</ul>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>subsequent times</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>part of merging your changes with the github repo</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>if you haven't made changes</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>git fetch</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>get merge</strong></p>
+</li>
+</ul>
+</ul>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>updating project to github after you've made changes	</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>git add</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>git commit</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>documenting with comments</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>git commit -m</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>default editor</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>if you don't set your default editor to something else, your commit message will open in vim</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>:x</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>git config --global core.editor open</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>concise</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>comment on substantive changes, contributions</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>what if there are conflicts?</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>frequency</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>each time you push back to the github repository, the owner needs to OK it</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>often enough to lessen chance of 'conflicts'</strong></p>
+</li>
+</ul>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>staging and changing</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>basic usage</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Terminal</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>installing git on OS X</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>macports</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>big install</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>makes other tools available</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>www.macports.org <http://www.macports.org/></strong></p>
+</li>
+</ul>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>basic set of commands</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>git clone</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>git commit</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>git commit -m 'comment'</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>commits staged files, commitment comments part of CLI command</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>git commit -a</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>a way to skip the staging step; commits all added, changed files</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>git commit -am</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>combines the above</strong></p>
+</li>
+</ul>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>git status</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>short output:  git status -s </strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>detailed output:  git status</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>two columns for annotations:  staged and working directory</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>annotations</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>A = added</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>M = modified since last commit</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>D = deleted since last commit</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>U = updated but not merged</strong></p>
+</li>
+</ul>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>git add [filename1] [filename2] … [filenameN]</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>git fetch</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>git merge</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>git push</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>get pull</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>git help</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>Other resources</strong></p>
+</li>
+</ul>
+
+</td>
+<td width="8">
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScrivenerProject Version="1.0" Creator="SCRMAC-2.3-19120">
+    <Binder>
+        <BinderItem ID="0" Type="DraftFolder" Created="2012-07-29 07:27:45 -0500" Modified="2012-07-29 07:27:45 -0500">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="110" Type="Text" Created="2012-07-29 08:10:58 -0500" Modified="2012-07-29 10:16:56 -0500">
+                    <Title>Meta-Data</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>338,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="4" Type="Text" Created="2012-07-28 12:25:45 -0500" Modified="2012-07-29 10:40:53 -0500">
+                    <Title>Workflow</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>130,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="5" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 10:42:12 -0500">
+                            <Title>1 - clone project from github to local repo</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>140,13</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="6" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                            <Title>2 - make your changes, additions</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="7" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                    <Title>editing document</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="8" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                            <Title>flat text editor</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                            <Children>
+                                                <BinderItem ID="9" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>textmate</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                    <Children>
+                                                        <BinderItem ID="10" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                            <Title>help.github.com—using-textmate-as-your-default-editor &lt;https://help.github.com/articles/using-textmate-as-your-default-editor></Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <TextSelection>0,0</TextSelection>
+                                                            </TextSettings>
+                                                        </BinderItem>
+                                                    </Children>
+                                                </BinderItem>
+                                                <BinderItem ID="11" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>textedit</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                                <BinderItem ID="12" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>BBEdit</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                                <BinderItem ID="13" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>emacs</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                                <BinderItem ID="14" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>not</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                    <Children>
+                                                        <BinderItem ID="15" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                            <Title>Pages</Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <TextSelection>0,0</TextSelection>
+                                                            </TextSettings>
+                                                        </BinderItem>
+                                                        <BinderItem ID="16" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                            <Title>MS Word</Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <TextSelection>0,0</TextSelection>
+                                                            </TextSettings>
+                                                        </BinderItem>
+                                                        <BinderItem ID="17" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                            <Title>OpenOffice</Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <TextSelection>0,0</TextSelection>
+                                                            </TextSettings>
+                                                        </BinderItem>
+                                                    </Children>
+                                                </BinderItem>
+                                            </Children>
+                                        </BinderItem>
+                                        <BinderItem ID="18" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                            <Title>saving to local clone</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                            <Children>
+                                                <BinderItem ID="19" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>if you make a mistake, can always delete and 're-fetch'</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                    <Children>
+                                                        <BinderItem ID="20" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                            <Title>Q:  before deleting, do you need to make sure your file is not staged? </Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <TextSelection>0,0</TextSelection>
+                                                            </TextSettings>
+                                                        </BinderItem>
+                                                    </Children>
+                                                </BinderItem>
+                                            </Children>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem ID="21" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                    <Title>add</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="22" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                            <Title>3 - stage changes (git add)</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="23" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                    <Title>can check with 'git status'</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="24" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                    <Title>stage files with changes to be included in 'commit'</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="25" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                            <Title>4 - commit changes (git commit)</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="26" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                            <Title>5 - fetch new files from github repo</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="27" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                            <Title>6- merge new files with your version; you will now have the most up-to-date version of the project as your local repo</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="28" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                    <Title>if there are not file/text conflicts, you can proceed to the next step</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="29" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                    <Title>if the merge fails with a 'conflict' message (and file name), you'll need to do some work</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="30" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                            <Title>open the file in an editor and resolve the conflict (look for a series of '&lt;' at the start of the conflict and a series of '>' at the end of the conflict.  The conflicting text is between them</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="31" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                            <Title>replace conflicted text with your fix</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="32" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                            <Title>restage the edited file with 'git add [filename]'</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="33" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                            <Title>return to step 4</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="34" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                            <Title>7 - push changes to common repo at github</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="35" Type="Text" Created="2012-07-28 12:25:45 -0500" Modified="2012-07-28 12:26:27 -0500">
+                    <Title>getting project from github</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="36" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                            <Title>first time</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="37" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                    <Title>configuring git on OS X, help.github.com—set-up-git &lt;https://help.github.com/articles/set-up-git></Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="38" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                            <Title>username</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                            <Children>
+                                                <BinderItem ID="39" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>git config --global user.name "Your Name Here"</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                                <BinderItem ID="40" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>help.github.com—setting-your-username-in-git &lt;https://help.github.com/articles/setting-your-username-in-git></Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                            </Children>
+                                        </BinderItem>
+                                        <BinderItem ID="41" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                            <Title>email address</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                            <Children>
+                                                <BinderItem ID="42" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>should be the same email address that is associated with your GitHub account (your Truman account)</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                                <BinderItem ID="43" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>git config --global user.email "your_email@youremail.com &lt;mailto:your_email@youremail.com>"</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                                <BinderItem ID="44" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>help.github.com—setting-your-email-in-git &lt;https://help.github.com/articles/setting-your-email-in-git></Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                            </Children>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem ID="45" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                    <Title>connecting to github the first time</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="46" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                            <Title>HTTPS mode:  why not</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                            <Children>
+                                                <BinderItem ID="47" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>cannot access private repositories</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                            </Children>
+                                        </BinderItem>
+                                        <BinderItem ID="48" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                            <Title>using git@github.com &lt;mailto:git@github.com></Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                            <Children>
+                                                <BinderItem ID="49" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>make SSH key</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                    <Children>
+                                                        <BinderItem ID="50" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                            <Title>help.github.com—generating-ssh-keys &lt;https://help.github.com/articles/generating-ssh-keys></Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <TextSelection>0,0</TextSelection>
+                                                            </TextSettings>
+                                                        </BinderItem>
+                                                    </Children>
+                                                </BinderItem>
+                                                <BinderItem ID="51" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                    <Title>command for cloning from github</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                    <Children>
+                                                        <BinderItem ID="52" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                                            <Title>git clone git@github.com &lt;mailto:git@github.com>:TrumanSTEP/[REPONAME].git</Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <TextSelection>0,0</TextSelection>
+                                                            </TextSettings>
+                                                        </BinderItem>
+                                                    </Children>
+                                                </BinderItem>
+                                            </Children>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="53" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                            <Title>subsequent times</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="54" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                    <Title>part of merging your changes with the github repo</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="55" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                    <Title>if you haven't made changes</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="56" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                            <Title>git fetch</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="57" Type="Text" Created="2012-07-29 07:29:50 -0500" Modified="2012-07-29 07:29:50 -0500">
+                                            <Title>get merge</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="58" Type="Text" Created="2012-07-28 12:25:45 -0500" Modified="2012-07-28 12:26:27 -0500">
+                    <Title>updating project to github after you've made changes	</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="59" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                            <Title>git add</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="60" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                            <Title>git commit</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="61" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                    <Title>documenting with comments</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="62" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>git commit -m</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="63" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>default editor</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                            <Children>
+                                                <BinderItem ID="64" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                                    <Title>if you don't set your default editor to something else, your commit message will open in vim</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                    <Children>
+                                                        <BinderItem ID="65" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                                            <Title>:x</Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <TextSelection>0,0</TextSelection>
+                                                            </TextSettings>
+                                                        </BinderItem>
+                                                    </Children>
+                                                </BinderItem>
+                                                <BinderItem ID="66" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                                    <Title>git config --global core.editor open</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                            </Children>
+                                        </BinderItem>
+                                        <BinderItem ID="67" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>concise</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="68" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>comment on substantive changes, contributions</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem ID="69" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                    <Title>what if there are conflicts?</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="70" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                    <Title>frequency</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="71" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>each time you push back to the github repository, the owner needs to OK it</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="72" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>often enough to lessen chance of 'conflicts'</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="73" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                            <Title>staging and changing</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="74" Type="Text" Created="2012-07-28 12:25:45 -0500" Modified="2012-07-28 12:26:27 -0500">
+                    <Title>basic usage</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="75" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                            <Title>Terminal</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="76" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                            <Title>installing git on OS X</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="77" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                    <Title>macports</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="78" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>big install</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="79" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>makes other tools available</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="80" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>www.macports.org &lt;http://www.macports.org/></Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="81" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                            <Title>basic set of commands</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="82" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                    <Title>git clone</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="83" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                    <Title>git commit</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="84" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>git commit -m 'comment'</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                            <Children>
+                                                <BinderItem ID="85" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                                    <Title>commits staged files, commitment comments part of CLI command</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                            </Children>
+                                        </BinderItem>
+                                        <BinderItem ID="86" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>git commit -a</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                            <Children>
+                                                <BinderItem ID="87" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                                    <Title>a way to skip the staging step; commits all added, changed files</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                            </Children>
+                                        </BinderItem>
+                                        <BinderItem ID="88" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>git commit -am</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                            <Children>
+                                                <BinderItem ID="89" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                                    <Title>combines the above</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                            </Children>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem ID="90" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                    <Title>git status</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="91" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>short output:  git status -s </Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="92" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>detailed output:  git status</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="93" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>two columns for annotations:  staged and working directory</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="94" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                            <Title>annotations</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                            <Children>
+                                                <BinderItem ID="95" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                                    <Title>A = added</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                                <BinderItem ID="96" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                                    <Title>M = modified since last commit</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                                <BinderItem ID="97" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                                    <Title>D = deleted since last commit</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                                <BinderItem ID="98" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                                    <Title>U = updated but not merged</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>0,0</TextSelection>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                            </Children>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem ID="99" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                    <Title>git add [filename1] [filename2] … [filenameN]</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="100" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                    <Title>git fetch</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="101" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                    <Title>git merge</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="102" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                    <Title>git push</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="103" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                                    <Title>get pull</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="104" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                            <Title>git help</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="105" Type="Text" Created="2012-07-28 12:25:45 -0500" Modified="2012-07-28 12:26:27 -0500">
+                    <Title>Other resources</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="1" Type="ResearchFolder" Created="2012-07-29 07:27:45 -0500" Modified="2012-07-29 07:27:45 -0500">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="106" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                    <Title>scottchacon.com—github-flow.html &lt;http://scottchacon.com/2011/08/31/github-flow.html></Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="107" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                    <Title>help.github.com—what-are-other-good-resources-for-using-git-or-github &lt;https://help.github.com/articles/what-are-other-good-resources-for-using-git-or-github></Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="108" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                    <Title>stackoverflow.com—git-for-beginners-the-definitive-practical-guide &lt;http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide></Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="109" Type="Text" Created="2012-07-29 07:29:51 -0500" Modified="2012-07-29 07:29:51 -0500">
+                    <Title>gitref.org &lt;http://gitref.org/></Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="2" Type="TrashFolder" Created="2012-07-29 07:27:45 -0500" Modified="2012-07-29 07:27:45 -0500">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="3" Type="Text" Created="2012-07-29 07:27:45 -0500" Modified="2012-07-29 07:27:45 -0500">
+                    <Title>Untitled</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="0B104DE2-45C4-41FF-9830-B8E0CCD1893A" Color="0.789419 0.816433 0.846513">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="69F5F057-A261-4D4F-9E0B-32F38C4DCFA4" Color="0.922 0.91 0.98">
+            <Title>Search Results</Title>
+        </Collection>
+    </Collections>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.9 0.92 0.95">Concept</Label>
+            <Label ID="1" Color="0.985 0.875 0.85">Chapter</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">First Draft</Status>
+            <Status ID="2">Revised Draft</Status>
+            <Status ID="3">Final Draft</Status>
+            <Status ID="4">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-07-29 07:27:45 -0500" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="75" Characters="545" Date="2012-07-29 07:27:45 -0500"></PreviousSession>
+    </ProjectTargets>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScrivenerProject>
