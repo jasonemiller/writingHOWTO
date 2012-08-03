@@ -10,15 +10,25 @@ keywords: git, github, writing
 
 In this document, we describe the workflow we will use in a collaborative writing context that involves the versioning system, git.
 
+### Setting up Git and GitHub ###
+
+We will be using a system called Git to keep track and share the changes we make to our project files as we write.  This will require a software install on the part of each of the collaborators, and this process is described below.
+
+Git will require you to use the OS X application called Terminal.app.  Make sure you know how to launch it and use its most basic functions.
+
+Writing collaboraators will lso be using a Cloud-based tool to coordinate project files and that integrates with Git.  The tool is called [GitHub](http://github.com).  Each collaborator must create a free account on this service and then notify the project coordinator (Jason Miller) of their GitHub username so he can add you to the project's team, as managed by GitHub.
+
+Once you have Git installed, you ought to do a bit of configuration.  Follow the instructions [here](https://help.github.com/articles/set-up-git) for specifying your username and email in Git.  You should also consider following [these instructions](https://help.github.com/articles/generating-ssh-keys) to set up a method that will allow your computer to talk with GitHub in a more streamlined manner.
+
 ### Obtaining Project Files ###
 
 To obtain the project materials, you must use git and create a clone of the master repository on your work machine.  This means you’ll need git installed and you’ll need an active internet connection.
 
-There are many ways to obtain and install git. [^otheroptions]   The easiest way to install git on OS X is to use the graphical Git installer available for download at http://code.google.com/p/git-osx-installer.
+There are many ways to obtain and install git. [^otheroptions]   The easiest way to install git on OS X is to use the graphical Git installer available for download at [here](http://code.google.com/p/git-osx-installer).
 
 If you have MacPorts installed, you can install git and its dependancies with a single command in the Terminal.
 
-Once you have git installed, running, and configured,  (link to section on configuration) you can make a clone of the project repository on your working machine.  Open Terminal.app and authenticate if necessary.  Change to the directory in which you want the repository clone to reside.  Then, at the command line, type and then execute the following:
+Once you have git installed, running, and configured, you can make a clone of the project repository on your working machine.  Open Terminal.app and authenticate if necessary.  Change to the directory in which you want the repository clone to reside.  Then, at the command line, type and then execute the following:
 
 	git clone git@github.com:TrumanSTEP/NAME.git
 
@@ -32,7 +42,7 @@ With the exception of special files, such as digital images that are included in
 
 ### Making Revisions ###
 
-To keep the 'flat' nature of the files, we must revise project files using text editors (as opposed to word processors).  Example text editors include (moving from free to paid) Emacs, TextEdit, Vim, Nano, TextWrangler, TextMate, BBEdit, and MarsEdit.
+To keep the flat nature of the files, we must revise project files using text editors (as opposed to word processors).  Example text editors include (moving from free to paid) Emacs, TextEdit, Vim, Nano, TextWrangler, TextMate, BBEdit, and MarsEdit.
 
 While some (most?) word processors allow you to save a file as text only, it's best to avoid using them.  Any changes in a file will be noticed and tracked by git, so who knows what can happen when a flat text files changes to rick text while being edited and then back to text only before being saved.
 
