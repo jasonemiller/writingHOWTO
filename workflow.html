@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>How To Write Collaboratively with Git and GitHub   </title>
+	<meta name="author" content="Jason Miller   "/>
+	<meta name="date" content="July 29, 2012   "/>
+	<meta name="latexfooter" content="testing   "/>
+	<meta name="copyright" content="2012 all rights reserved   "/>
+	<meta name="keywords" content="git, github, writing"/>
+</head>
+<body>
+
+<h2 id="workflow">Workflow</h2>
+
+<p>In this document, we describe the workflow we will use in a collaborative writing context that involves the versioning system, git.</p>
+
+<h3 id="obtainingprojectfiles">Obtaining Project Files</h3>
+
+<p>To obtain the project materials, you must use git and create a clone of the master repository on your work machine.  This means you’ll need git installed and you’ll need an active internet connection.</p>
+
+<p>There are many ways to obtain and install git. <a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a> The easiest way to install git on OS X is to use the graphical Git installer available for download at http://code.google.com/p/git-osx-installer.</p>
+
+<p>If you have MacPorts installed, you can install git and its dependancies with a single command in the Terminal.</p>
+
+<p>Once you have git installed, running, and configured, (link to section on configuration) you can make a clone of the project repository on your working machine. Open Terminal.app and authenticate if necessary. Change to the directory in which you want the repository clone to reside. Then, at the command line, type and then execute the following:</p>
+
+<pre><code>git clone git@github.com:TrumanSTEP/NAME.git
+</code></pre>
+
+<p>This will clone the private repository named NAME hosted in the TrumanSTEP organizational account to the working directory/folder (as identified by the Terminal) on your local machine. You can now open the files in that folder with a text editor and make contributions (new content, revisions, <em>etc.</em>) to the project.</p>
+
+<p>With the exception of special files, such as digital images that are included in a document for illustrative purposes, a project&#8217;s files consist of flat text files. Such files are text-only files with no formatting. This &#8216;flat&#8217; nature allows git to track the changes in the files, merge the revisions of the collaborators, and do the other magical things that it does.</p>
+
+<h3 id="makingrevisions">Making Revisions</h3>
+
+<p>To keep the &#8216;flat&#8217; nature of the files, we must revise project files using text editors (as opposed to word processors). Example text editors include (moving from free to paid) Emacs, TextEdit, Vim, Nano, TextWrangler, TextMate, BBEdit, and MarsEdit.</p>
+
+<p>While some (most?) word processors allow you to save a file as text only, it&#8217;s best to avoid using them. Any changes in a file will be noticed and tracked by git, so who knows what can happen when a flat text files changes to rick text while being edited and then back to text only before being saved.</p>
+
+<h3 id="stagingyourrevisions">Staging your Revisions</h3>
+
+<p>Once you&#8217;ve made changes to a file in the project, you are going to need to share those changes with the rest of the project collaborators. This means the team needs your changes to propagate back into the master repository.</p>
+
+<p>The first thing you are going to do is stage your revised file for propagation. In Terminal.app, at the command line (with the project folder as the working directory <a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a>), execute the following command</p>
+
+<pre><code>git add FILENAME
+</code></pre>
+
+<p>This will stage your revised file for merging back into the project. If you have made changes to multiple files, repeat this for each file, or execute</p>
+
+<pre><code>git add FILENAME1 FILENAME2 ... FILENAMEn
+</code></pre>
+
+<p>The command ‘git status’ will show you which files have been staged for the merge.</p>
+
+<h3 id="sharingyourrevisions">Sharing your Revisions</h3>
+
+<p>With revised files staged, you are ready to fold them into the project. First, you commit those project revisions to your local copy using the command &#8216;git commit&#8217;. See the section [NAME] on a couple ways to use this command. The basic invocation would look like</p>
+
+<pre><code>git commit -m &quot;comment&quot; FILENAME
+</code></pre>
+
+<p>where &#8220;comment&#8221; is a sentence or phrase that describes the revisions you made to FILENAME. As with the ‘git add&#8217; command, you can commit a list of files at a time by listing their filenames in series. The comment is associated with the commit action, not with the files.</p>
+
+<p>To prepare for merging your revisions with the master project files on GitHub, you will next fetch files in the current version on GitHub and merge your changes with them. This happens with the command</p>
+
+<pre><code>git fetch
+</code></pre>
+
+<p>Having just fetched the most recent version of the project from GitHub, you now merge your changes in with the command</p>
+
+<pre><code>git merge
+</code></pre>
+
+<p>If all goes well, you can then proceed to the last step. If all does not go well, it means that the merge discovered a conflict between a revision you made and a revision someone else made since you obtained the files you revised.</p>
+
+<h4 id="resolvingconflicts">Resolving Conflicts</h4>
+
+<p>Git will tell you where in each file those conflicts occur by placing a series of &#8216;&lt;&#8217; symbols at the start of the conflict, a series of &#8216;&gt;&#8217; at the end of the conflict, and a series of &#8217;&#8216;=&#8217; symbols between the two versions of the conflicting text. You must resolve this conflict by replacing this block of text with the correct revision. This might require a conversation with other collaborators. If it does, it&#8217;s probably better to delete your revision and go with the revision of your collaborator until you can have a conversation. At this moment, it&#8217;s important to resolve the conflict and get your other contributions into the master repository.</p>
+
+<p>Once you resolve any conflicts, execute &#8216;git merge&#8217; at the command line again to make sure all is well. The proceed to push your changes into the master repository so they are available to your collaborators.</p>
+
+<h3 id="pushingyourrevisionstotheteam">Pushing your Revisions to the Team</h3>
+
+<p>To push your revisions to the master repository, execute</p>
+
+<pre><code>git push
+</code></pre>
+
+<p>That&#8217;s it. Once you&#8217;ve done that, you will have on your local machine a clone of the master repository.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn:1">
+<p>See http://git-scm.com/book/en/Getting-Started-Installing-Git for a pretty comprehensive list of options, including instructions. <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:2">
+<p>You can use the ‘pwd’ command to see the path to your current location. Alternatively, you can use the ls command to see the other files in the working directory; if you don&#8217;t have other clones of the project files on your machine, you should be able to infer from the file list where you are. <a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+
+</body>
+</html>
